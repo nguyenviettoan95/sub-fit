@@ -1,0 +1,263 @@
+/* ==========================================================================
+   Nguyen Trong Nghia
+
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 15px;
+    background-color:  #691b1d;
+    font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+	text-align:  center;
+	padding: 20px 0px;
+}
+.navbar-header{
+	background-color: #872123;
+	height: 48px; 
+	padding: 5px;
+	text-align: center;
+}
+.btn{
+	height: 38px;
+    width: 45px;
+    padding: 5px !important;
+    background-color: #872123;
+    border: 1px solid #fff568 !important;
+    margin-bottom: 0px !important;
+}
+.main{
+	position: relative;
+	right: 0px;
+	transition: right 0.3s linear;
+}
+.move{
+	right: -260px;
+	transition: right 0.3s linear;
+}
+#slidebar{
+	background-color: #333;
+	width: 260px;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: -260px;
+	transition: left 0.3s linear;
+	box-shadow: 0px 0px 5px 5px #222 inset !important;
+}
+.menuleft	{
+	left: 0px !important;
+	transition: left 0.3s linear !important;
+}
+#slidebar ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#slidebar ul li{
+	height: 48px;
+    border-bottom: 1px solid #666666;
+    line-height: 30px;
+}
+#slidebar ul li a{
+	color: white;
+	display: block;
+	width: 260px;
+	padding: 10px;
+}
+#slidebar ul li:hover a{
+	box-shadow: 0px 0px 15px 3px #222 inset;
+}
+.fa-list-ul{
+	color:#fff568;
+	font-size: 24px !important;
+}
+.menu{
+	background-color: #872123 ;
+}
+.navbar{
+	border: none;
+}
+ .navbar-default{
+	background: #872123;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	height: 60px;
+	display: flex;
+    justify-content: center;
+
+}
+.navbar-default .navbar-nav li:first-child a{
+    border-left: solid 1px;	
+}
+.navbar-default .navbar-nav li a{
+		color: white;
+		display: block;
+		font-size: 17px;
+		border-right: solid 1px;
+		height: 60px;
+		padding: 15px 25px;
+}
+.navbar-default .navbar-nav li a:hover{
+	color: #fff568;
+	background-color: #691b1d;
+}
+.panel-default{
+	padding: 20px;
+    border: none;
+    border-radius: 0px;
+}
+.content1{
+	margin-bottom: 30px;
+}
+.content1-1{
+	padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    border-bottom: 3px double #ddd;
+}
+.row{
+	padding-top: 30px;
+}
+
+.time, .folder{
+	float: left;
+	margin-right: 30px;
+}
+.search h2, .post h2{
+	    margin-top: 0px;
+	    font-weight: bold;
+	    font-size: 24px;
+}
+.form-control{
+	    border-radius: 0px;
+	    font-size: 15px;
+	    background-color: #dddddd;
+}
+button{
+	    background-color: #872123;
+}
+.btn-default{
+	border-radius: 0px;
+    background: #872123;
+    color: white;
+    height: 34px;
+}
+.panel-default{
+	margin-bottom: 40px;
+}
+ div .post ul{
+	list-style: none;
+	padding-left: 0px
+}
+div .post ul li{
+	margin-top: 10px;
+}
+div .progress{
+	 height: 5px;
+    border-radius: 0px;
+    background-color: inherit;
+}
+div .progress-bar{
+	background: #691b1d;
+}
+footer{
+	background-color: #872123;
+}
+.navbar-default2{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+.navbar-default2 .navbar-nav li a{
+		color: #fff568;
+		display: block;
+		font-size: 15px;
+		padding: 15px 15px;
+}
+.navbar-default2 .navbar-nav li a:hover{
+	color: white;
+	background-color: #872123;
+}
+#container hr{
+	width: 90%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.copy{
+	color: white;
+	text-align: center;
+	padding-bottom: 5px;
+}
+form {
+    margin: 0
+}
+a {
+	color: #333; 
+    cursor: pointer
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+input, input:focus {
+    outline: none
+}
+
+
+body,h1,h2,h3,h4,p,a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ /* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.visible-xs{
+	display: block !important;
+}
+.navbar-header{
+	background-color: #872123;
+	height: 48px; 
+	padding: 5px;
+	text-align: center;
+	width: 100%;
+}
+ .navbar-default{
+	display: none;
+}
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+}
