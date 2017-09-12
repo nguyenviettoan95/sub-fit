@@ -26,6 +26,37 @@ body {
 	padding: 5px;
 	text-align: center;
 }
+.source{
+	background: white;
+	padding: 15px 0px;
+	font-size: 15px;
+	height: 55px;
+}
+.source ul{
+	list-style: none;
+}
+.source ul li{
+		float: left;
+		padding-right: 10px;
+}
+.source ul li:first-child a{
+	color: #bbb3b9;
+}
+.source ul li span{
+	margin-left: 15px;
+	font-family: FontAwesome;
+	color: #bbb3b9;
+}
+.header h1{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.header p{
+	font-size: 17px;
+	margin-bottom: 15px;
+}
 .btn{
 	height: 38px;
     width: 45px;
